@@ -1,0 +1,140 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/gtk-x64-linux-4.14.0#1-7c759d19-d2f4-4259-9c9b-19cf1a6824ec",
+  "name": "gtk:x64-linux@4.14.0#1 3bab0354369eb16e89149238dc8664f2d5494604283a3668e20d61dcb3f7d8b9",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2024-10-05T23:04:58Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "gtk",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.14.0#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@4a2c53b5715720e68051e3d26bfa56a83b6c8de0",
+      "homepage": "https://www.gtk.org/",
+      "licenseConcluded": "LGPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Portable library for creating graphical user interfaces.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "gtk:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "3bab0354369eb16e89149238dc8664f2d5494604283a3668e20d61dcb3f7d8b9",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LGPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/4a2c53b5715720e68051e3d26bfa56a83b6c8de0/fix_vulkan_enabled.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "924aa1730683ac2f89f00615a08c3d0102fa8d7cb0b8c058b3ac05b05d914138"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/4a2c53b5715720e68051e3d26bfa56a83b6c8de0/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1122e871d449ca4ec385f3011a60b786f1c658591f97f40695f48e8280b57b83"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/4a2c53b5715720e68051e3d26bfa56a83b6c8de0/0001-build.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e15563687b6add506f06788571a4013e6b37f7a934d999df53388779de604e0d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/4a2c53b5715720e68051e3d26bfa56a83b6c8de0/portfile.cmake",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9229f899b8d64690f3c0802bcb457931729916b599e4729824763d7b739b4060"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

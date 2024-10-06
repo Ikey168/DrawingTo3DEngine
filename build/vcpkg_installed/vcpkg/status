@@ -1,0 +1,602 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 37dae2252da8f81fff811dc6fd289e15443eb8c0cce750b837660d29d40e8330
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: fb32c17e4d5627e9e62674fce6a6a180acea4110d491f2d9420eec217f4df0ef
+Description: A compression library
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 4c18b430884259a1f42625ad4ef446cf66ecaba79b903521a0b69d261aebffbf
+Status: install ok installed
+
+Package: liblzma
+Version: 5.6.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9facd41f57ee61c186e2dccdffb7537ed1ff5d2c0a1c36aa82651807679fb870
+Description: Compression library with an API similar to that of zlib.
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 3.0.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 582a2d5605f64b462a1fe28471a1a36df6bae7a97638904ea18b39aaaa1dd1a9
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Status: install ok installed
+
+Package: tiff
+Version: 4.6.0
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: a2818375275a73199baf18949033cf27a319fa30bcb6abc07a11c5a154673778
+Description: A library that supports the manipulation of TIFF image files
+Default-Features: jpeg, lzma, zip
+Status: install ok installed
+
+Package: tiff
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support JPEG compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: lzma
+Depends: liblzma
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support LZMA compression in TIFF image files
+Status: install ok installed
+
+Package: tiff
+Feature: zip
+Depends: zlib
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support ZIP/deflate compression in TIFF image files
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.43
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3663a7172fb23642f412ee6b6291e68981a042963b74d2765ae54679f0244e46
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2024-09-22
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e2cfb76fffd9e6151da98baa506c16b633484a9289fcd6084b08074688e2b385
+Status: install ok installed
+
+Package: vcpkg-tool-meson
+Version: 1.5.2
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 29bf3fd5809e025d726b0b8798e0cb5266fe0339218c2dc5d4be63bb3c2cc3a5
+Description: Meson build system
+Status: install ok installed
+
+Package: libsass
+Version: 3.6.6
+Architecture: x64-linux
+Multi-Arch: same
+Abi: be7b44a845d65fe2134c9e92c093d09d87e9e6ccf85884a1206d281683ad363c
+Description: LibSass - Sass compiler written in C++
+Status: install ok installed
+
+Package: sassc
+Version: 3.6.2
+Port-Version: 1
+Depends: libsass
+Architecture: x64-linux
+Multi-Arch: same
+Abi: f41e0d910e2b461be6b9891715ba7db590813a5b1e5c29383533fb4b2758b261
+Description: SassC is a wrapper around libsass (http://github.com/sass/libsass) used to generate a useful command-line application that can be installed and packaged for several operating systems.
+Status: install ok installed
+
+Package: pcre2
+Version: 10.43
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 209bd927559d851f19bcf7622657fec24916dfc2fbac221d9df446e6b71b82b1
+Description: Regular Expression pattern matching using the same syntax and semantics as Perl 5.
+Default-Features: platform-default-features
+Status: install ok installed
+
+Package: pcre2
+Feature: jit
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable support for Just-In-Time compiling regex matchers
+Status: install ok installed
+
+Package: pcre2
+Feature: platform-default-features
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable default features
+Status: install ok installed
+
+Package: libiconv
+Version: 1.17
+Port-Version: 4
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 75b568578859a29a8336c383308525e49ea68085d7c0ac6a2a8110770417e1f5
+Description: GNU Unicode text conversion
+Status: install ok installed
+
+Package: libffi
+Version: 3.4.6
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 54049b0074d86fa86d2b40f9c0ed9cc42a1db0603c929e3676b989dd96ce3d93
+Description: Portable, high level programming interface to various calling conventions
+Status: install ok installed
+
+Package: gettext-libintl
+Version: 0.22.5
+Port-Version: 2
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 89c2c8ad0b1e37fc391647ab7f006843aeb3d2ddb6c260a26322a28e06df9153
+Description: The libintl C library from GNU gettext-runtime.
+Status: install ok installed
+
+Package: gettext
+Version: 0.22.5
+Port-Version: 1
+Depends: gettext-libintl
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1e16148a412341a93f0e97f2071cc18a8d0dc2294616862de97f3fe47c0f8f85
+Description: A GNU framework to help produce multi-lingual messages.
+Status: install ok installed
+
+Package: gettext
+Feature: tools
+Depends: libiconv
+Architecture: x64-linux
+Multi-Arch: same
+Description: Build gettext tools
+Status: install ok installed
+
+Package: dirent
+Version: 1.24
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 6b2a38305eb618a6dea84620e9892542ba00bb94d9799b8cd2a32880c4431ab3
+Description: Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
+Status: install ok installed
+
+Package: glib
+Version: 2.78.4
+Port-Version: 4
+Depends: dirent, gettext, gettext-libintl, libffi, libiconv, pcre2, vcpkg-tool-meson, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 05a3a1997ed672d40de235d325643a0deb16b9d539dc3ceda1481c01e757614f
+Description: Portable, general-purpose utility library.
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: cebf5ce8e759535d20e38a17ab93743188f9c49e6713675f055ffdc020714fb6
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: x64-linux
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.1.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c60c7420532c484f13938ecca933be76ddcadbc470406ec84c86987022802bf8
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.13.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 7afedd382d8781683c76bb46d0bc2c7535aa58f6c85a6f6ae9744cd6822e3f5d
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-linux
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: harfbuzz
+Version: 10.0.1
+Depends: vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 37a0cdd455ee64d36c7411f6b4171e8c0b562904b771cd5e56e64028cc5a52b6
+Description: HarfBuzz OpenType text shaping engine
+Default-Features: freetype
+Status: install ok installed
+
+Package: harfbuzz
+Feature: freetype
+Depends: freetype
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable FreeType support
+Status: install ok installed
+
+Package: harfbuzz
+Feature: glib
+Depends: glib
+Architecture: x64-linux
+Multi-Arch: same
+Description: Glib Unicode callbacks support
+Status: install ok installed
+
+Package: fribidi
+Version: 1.0.16
+Depends: vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 13c301c16f736ce29990780d95109fdbb5672c29cbf892400fefe7d926108588
+Description: GNU FriBidi is an implementation of the Unicode Bidirectional Algorithm (bidi)
+Status: install ok installed
+
+Package: pthreads
+Version: 3.0.0
+Port-Version: 14
+Depends: vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 7a472183d7e13371a337cb4a07aa3abf9ea53179a6cbab85323db20f7283b84f
+Description: Meta-package that provides PThreads4W on Windows, or assumes presence of system pthreads on POSIX systems.
+Status: install ok installed
+
+Package: pthread
+Version: 3.0.0
+Port-Version: 2
+Depends: pthreads
+Architecture: x64-linux
+Multi-Arch: same
+Abi: fb5b3dd2aace6adf844af70971f78168bd1fc772214f054562f070fc18f5a13b
+Description: empty package, linking to other port
+Status: install ok installed
+
+Package: libuuid
+Version: 1.0.3
+Port-Version: 14
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 412cefd4957b24a4fcd8e18a16f6de76f62c84a10453db246528304e6b670b63
+Description: Universally unique id library
+Status: install ok installed
+
+Package: gperf
+Version: 3.1
+Port-Version: 6
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 4f68a91d49fdcab887d7217cee3e55b041283d9cad72d2d81b78ccd68e4deda9
+Description: GNU perfect hash function generator
+Status: install ok installed
+
+Package: getopt
+Version: 0
+Port-Version: 3
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 771a52597f47e89492c457df86e3dfda9c33ac86be2377b8261f7f95e086211a
+Description: The getopt and getopt_long functions automate some of the chore involved in parsing typical unix command line options.
+Status: install ok installed
+
+Package: expat
+Version: 2.6.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8cf6a1d59974d03cb3ac4aa5b40b0498bbdd53e46514da168796b53123c4bbaf
+Description: XML parser library written in C
+Status: install ok installed
+
+Package: fontconfig
+Version: 2.15.0
+Port-Version: 1
+Depends: dirent, expat, freetype, getopt, gettext, gperf, libiconv, libuuid, pthread, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e6abdf80f15d0b50d14b16f94bcd6703bfd71baf5e72ec7dca102c73e80b1358
+Description: Library for configuring and customizing font access.
+Status: install ok installed
+
+Package: pixman
+Version: 0.43.4
+Port-Version: 1
+Depends: libpng, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: fc959022c95f833d1a74d85981919c6fb463433ade0799452725f9fb38d4c35a
+Description: Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization.
+Status: install ok installed
+
+Package: cairo
+Version: 1.18.0
+Port-Version: 1
+Depends: dirent, expat, libpng, pixman, pthread, vcpkg-tool-meson, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: f216855ea420768dc3a4a4c131b72a65f1fa818f90ecc00001d1bb8e6a116a78
+Description: Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System (via both Xlib and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output. Experimental backends include OpenGL, BeOS, OS/2, and DirectFB.
+Default-Features: fontconfig, freetype
+Status: install ok installed
+
+Package: cairo
+Feature: fontconfig
+Depends: fontconfig
+Architecture: x64-linux
+Multi-Arch: same
+Description: build with fontconfig
+Status: install ok installed
+
+Package: cairo
+Feature: freetype
+Depends: freetype
+Architecture: x64-linux
+Multi-Arch: same
+Description: use the freetype font backend
+Status: install ok installed
+
+Package: cairo
+Feature: gobject
+Depends: glib
+Architecture: x64-linux
+Multi-Arch: same
+Description: build gobject module
+Status: install ok installed
+
+Package: cairo
+Feature: x11
+Architecture: x64-linux
+Multi-Arch: same
+Description: build with x11 support
+Status: install ok installed
+
+Package: pango
+Version: 1.50.14
+Port-Version: 4
+Depends: cairo, fontconfig, freetype, fribidi, gettext, glib, harfbuzz, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 34c4f03a4c8f93f8daf2fb004bab035cf8bc68a2638c3406e82531b39eb14d8c
+Description: Text and font handling library.
+Status: install ok installed
+
+Package: egl-registry
+Version: 2024-01-25
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c42fd77db502a747ad05c9943b6fa6adfe8be8aba62e7b50531d14b34c8eda06
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: libepoxy
+Version: 1.5.10
+Port-Version: 2
+Depends: egl-registry, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e3e270337b9b83bbc4314b657133f96f295cee5f2cbb63b0097e3e11b1f91cb7
+Description: Epoxy is a library for handling OpenGL function pointer management for you
+Status: install ok installed
+
+Package: graphene
+Version: 1.10.8
+Port-Version: 2
+Depends: gettext, glib, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8156d96887cd963cbbb5b99030b3dda0553f9b40d67becbd235e29facbcfd2c2
+Description: A thin layer of types for graphic libraries.
+Status: install ok installed
+
+Package: gdk-pixbuf
+Version: 2.42.12
+Port-Version: 1
+Depends: gettext, gettext-libintl, glib, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: ec686ad4ebff48036f212da662c56c3113302a976c6fcc591e7bdab78778728f
+Description: Image loading library.
+Default-Features: jpeg, png, tiff
+Status: install ok installed
+
+Package: gdk-pixbuf
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable JPEG loader (requires libjpeg)
+Status: install ok installed
+
+Package: gdk-pixbuf
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable PNG loader (requires libpng)
+Status: install ok installed
+
+Package: gdk-pixbuf
+Feature: tiff
+Depends: tiff
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable TIFF loader (requires libtiff)
+Status: install ok installed
+
+Package: atk
+Version: 2.38.0
+Port-Version: 8
+Depends: gettext, glib, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 4190ade3bead5e90f14f6bc50fef576d64a2ca75ca2fdd8a16796c80bf49d4f8
+Description: GNOME Accessibility Toolkit
+Status: install ok installed
+
+Package: gtk
+Version: 4.14.0
+Port-Version: 1
+Depends: atk, cairo, gdk-pixbuf, gettext, gettext-libintl, glib, graphene, harfbuzz, libepoxy, pango, sassc, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3bab0354369eb16e89149238dc8664f2d5494604283a3668e20d61dcb3f7d8b9
+Description: Portable library for creating graphical user interfaces.
+Status: install ok installed
+
+Package: eigen3
+Version: 3.4.0
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 160a4168df8a5575e2d6374a124c9357fcb380d30ec3197f942a482fb5bffc79
+Description: C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Status: install ok installed
+
+Package: vcpkg-get-python-packages
+Version: 2024-01-24
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 871dd7592e04f836007d0596c08b120c4caffb8bde954c4bd7f31688cbd569fd
+Status: install ok installed
+
+Package: opencv2
+Version: 2.4.13.7
+Port-Version: 20
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-get-python-packages, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 01c6d4316aa984afee5785659ce110f58e52bf6ff85d41e43b5d0316e5cb6309
+Description: Open Source Computer Vision Library
+Default-Features: default-features
+Status: install ok installed
+
+Package: opencv2
+Feature: default-features
+Architecture: x64-linux
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok installed
+
+Package: opencv2
+Feature: eigen
+Depends: eigen3
+Architecture: x64-linux
+Multi-Arch: same
+Description: Eigen support for opencv
+Status: install ok installed
+
+Package: opencv2
+Feature: gtk
+Depends: gtk
+Architecture: x64-linux
+Multi-Arch: same
+Description: GTK support for opencv
+Status: install ok installed
+
+Package: opencv2
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-linux
+Multi-Arch: same
+Description: JPEG support for opencv
+Status: install ok installed
+
+Package: opencv2
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: PNG support for opencv
+Status: install ok installed
+
+Package: opencv2
+Feature: tiff
+Depends: tiff
+Architecture: x64-linux
+Multi-Arch: same
+Description: TIFF support for opencv
+Status: install ok installed
+

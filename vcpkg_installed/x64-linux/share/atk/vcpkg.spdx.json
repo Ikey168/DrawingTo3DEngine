@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/atk-x64-linux-2.38.0#8-fba782aa-5064-44d3-876b-cdbf78d4bdb5",
+  "name": "atk:x64-linux@2.38.0#8 4190ade3bead5e90f14f6bc50fef576d64a2ca75ca2fdd8a16796c80bf49d4f8",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2024-10-05T23:03:30Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "atk",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2.38.0#8",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@c97f8dd9d133fb3e75abf33040b3ec61e032734d",
+      "homepage": "https://developer.gnome.org/atk/",
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "GNOME Accessibility Toolkit",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "atk:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "4190ade3bead5e90f14f6bc50fef576d64a2ca75ca2fdd8a16796c80bf49d4f8",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/c97f8dd9d133fb3e75abf33040b3ec61e032734d/vcpkg.json",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4a9ed0e059c9f6d999fd16650b72dd456a76efc2e67f3683d3863b6bbf75ab50"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/c97f8dd9d133fb3e75abf33040b3ec61e032734d/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "834a6dade50dcd9b69aed67b0483451cf30cbbd09780059f3a105917b4fc5aca"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

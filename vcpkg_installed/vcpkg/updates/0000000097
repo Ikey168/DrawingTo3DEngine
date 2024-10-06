@@ -1,0 +1,6 @@
+Package: cairo
+Feature: x11
+Architecture: x64-linux
+Multi-Arch: same
+Description: build with x11 support
+Status: install ok installed

@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+
+targets=x11
+gtk_binary_version=4.0.0
+gtk_host=x86_64-linux
+
+Name: GTK
+Description: GTK Graphical UI Library
+Version: 4.14.0
+Requires: gtk4, x11
+Cflags: "-I${includedir}"
+

@@ -1,0 +1,9 @@
+Package: libepoxy
+Version: 1.5.10
+Port-Version: 2
+Depends: egl-registry, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e3e270337b9b83bbc4314b657133f96f295cee5f2cbb63b0097e3e11b1f91cb7
+Description: Epoxy is a library for handling OpenGL function pointer management for you
+Status: install ok installed

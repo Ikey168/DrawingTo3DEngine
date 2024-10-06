@@ -1,0 +1,7 @@
+Package: gdk-pixbuf
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable PNG loader (requires libpng)
+Status: install ok installed

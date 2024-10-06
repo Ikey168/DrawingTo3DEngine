@@ -1,0 +1,7 @@
+Package: opencv2
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: PNG support for opencv
+Status: install ok half-installed

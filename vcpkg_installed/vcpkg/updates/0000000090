@@ -1,0 +1,7 @@
+Package: cairo
+Feature: freetype
+Depends: freetype
+Architecture: x64-linux
+Multi-Arch: same
+Description: use the freetype font backend
+Status: install ok half-installed

@@ -1,0 +1,7 @@
+Package: opencv2
+Feature: eigen
+Depends: eigen3
+Architecture: x64-linux
+Multi-Arch: same
+Description: Eigen support for opencv
+Status: install ok half-installed

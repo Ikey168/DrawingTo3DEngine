@@ -1,0 +1,4 @@
+# ninja log v6
+0	13	1728213410288373596	CMakeFiles/OpTests.dir/src/main.cpp.o	df7aff25e6271cd7
+1	618	1728213524034952162	CMakeFiles/OpTests.dir/src/photo_scanner.cpp.o	3989389c189afd06
+618	699	1728213524651618350	OpTests	4cc68635ee7e10f3

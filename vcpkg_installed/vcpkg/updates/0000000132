@@ -1,0 +1,7 @@
+Package: opencv2
+Feature: gtk
+Depends: gtk
+Architecture: x64-linux
+Multi-Arch: same
+Description: GTK support for opencv
+Status: install ok installed

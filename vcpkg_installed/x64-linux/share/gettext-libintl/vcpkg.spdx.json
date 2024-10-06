@@ -1,0 +1,243 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/gettext-libintl-x64-linux-0.22.5#2-f3c00275-ec28-45ac-aeff-9a76080c05b7",
+  "name": "gettext-libintl:x64-linux@0.22.5#2 89c2c8ad0b1e37fc391647ab7f006843aeb3d2ddb6c260a26322a28e06df9153",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2024-10-05T22:56:22Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-5"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-6"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-7"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-5",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-6",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-7",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "gettext-libintl",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.22.5#2",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@f41e983c85004eb6ee8d290ecb2465832fce8c00",
+      "homepage": "https://www.gnu.org/software/gettext/",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "The libintl C library from GNU gettext-runtime.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "gettext-libintl:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "89c2c8ad0b1e37fc391647ab7f006843aeb3d2ddb6c260a26322a28e06df9153",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "gettext-${VERSION}.tar.gz",
+      "packageFileName": "gettext-${VERSION}.tar.gz",
+      "downloadLocation": "https://ftp.gnu.org/pub/gnu/gettext/gettext-${VERSION}.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d8b22d7fba10052a2045f477f0a5b684d932513bdb3b295c22fbd9dfc2a9d8fccd9aefd90692136c62897149aa2f7d1145ce6618aa1f0be787cb88eba5bc09be"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/usage",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd01a4f80d9d6312a1f6a9f3f3ff1cf372e365c48c36f3fe26c1e50763b3ccfb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d6c7f2f6ca57732ac9a01aed20a6d8d8be40f3453389120f203117db238cb9a1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/uwp.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d97dbff25ece4bd0de06f5ebf7b7862b0f6f3dafbb69a5da7ebd8709dea16e4a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/vcpkg-cmake-wrapper.cmake",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7df340997d805224757e8482cd6655cacbe2341c30334c223655226249794d6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/bashify.cmake",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "232f0e8bbaa56e78b4363c3996a21d225b71f278d870959036ee2addb0bb3875"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/0003-Fix-win-unicode-paths.patch",
+      "SPDXID": "SPDXRef-file-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ef9ec9d0fdf4fad272c17942350c380509cf06ec84e7ea646177439b6cea4fe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/portfile.cmake",
+      "SPDXID": "SPDXRef-file-6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48e933a2329d8683e811be848807342f9e0cbd6696b1197d0ba1cd4d103c37fb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/f41e983c85004eb6ee8d290ecb2465832fce8c00/detect/CMakeLists.txt",
+      "SPDXID": "SPDXRef-file-7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "941971cf714a4b681f91b2937b4431693d6d89d917782c18a37b91fd219087bb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

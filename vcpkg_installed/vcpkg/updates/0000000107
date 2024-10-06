@@ -1,0 +1,7 @@
+Package: gdk-pixbuf
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-linux
+Multi-Arch: same
+Description: Enable JPEG loader (requires libjpeg)
+Status: install ok half-installed

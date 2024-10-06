@@ -1,0 +1,13 @@
+x64-linux/
+x64-linux/share/
+x64-linux/share/sassc/
+x64-linux/share/sassc/copyright
+x64-linux/share/sassc/vcpkg.spdx.json
+x64-linux/share/sassc/vcpkg_abi_info.txt
+x64-linux/tools/
+x64-linux/tools/sassc/
+x64-linux/tools/sassc/bin/
+x64-linux/tools/sassc/bin/sassc
+x64-linux/tools/sassc/debug/
+x64-linux/tools/sassc/debug/bin/
+x64-linux/tools/sassc/debug/bin/sassc

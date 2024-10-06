@@ -1,0 +1,7 @@
+Package: cairo
+Feature: gobject
+Depends: glib
+Architecture: x64-linux
+Multi-Arch: same
+Description: build gobject module
+Status: install ok installed

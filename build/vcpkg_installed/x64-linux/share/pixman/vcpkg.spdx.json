@@ -1,0 +1,162 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/pixman-x64-linux-0.43.4#1-a0251fa6-137d-4263-bf0e-1940a1c7acee",
+  "name": "pixman:x64-linux@0.43.4#1 fc959022c95f833d1a74d85981919c6fb463433ade0799452725f9fb38d4c35a",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2024-10-05T23:01:50Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "pixman",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.43.4#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@6b62aac8f96d7fe4e407759601cfdbc350afa9ae",
+      "homepage": "https://www.cairographics.org/releases",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "pixman:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "fc959022c95f833d1a74d85981919c6fb463433ade0799452725f9fb38d4c35a",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/6b62aac8f96d7fe4e407759601cfdbc350afa9ae/vcpkg.json",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "98b5fbbe0d567134d54701ce0ab79caa936caff03db7b49f4023c21e45ca50ba"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/6b62aac8f96d7fe4e407759601cfdbc350afa9ae/fix_clang-cl.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ee92064ffc0db5d41d05b983c986ba279f51df29b2099546785d5733e14d813"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/6b62aac8f96d7fe4e407759601cfdbc350afa9ae/missing_intrin_include.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9cc0ad34ec71f54292ff1ba872cf28dfd1542dc95401a50922fa565b2b58119d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/6b62aac8f96d7fe4e407759601cfdbc350afa9ae/no-host-cpu-checks.patch",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b234899a99390edeca43358e5775e46ad09f44ce8040c5b1053a7782d1898944"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/6b62aac8f96d7fe4e407759601cfdbc350afa9ae/portfile.cmake",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b1d683797ef0046b4431a222b303f2c4ab468f60e766b9995e7c4e8c13a78179"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

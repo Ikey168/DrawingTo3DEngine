@@ -1,0 +1,9 @@
+Package: gtk
+Version: 4.14.0
+Port-Version: 1
+Depends: atk, cairo, gdk-pixbuf, gettext, gettext-libintl, glib, graphene, harfbuzz, libepoxy, pango, sassc, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 3bab0354369eb16e89149238dc8664f2d5494604283a3668e20d61dcb3f7d8b9
+Description: Portable library for creating graphical user interfaces.
+Status: install ok half-installed

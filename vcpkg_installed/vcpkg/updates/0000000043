@@ -1,0 +1,7 @@
+Package: gettext
+Feature: tools
+Depends: libiconv
+Architecture: x64-linux
+Multi-Arch: same
+Description: Build gettext tools
+Status: install ok installed

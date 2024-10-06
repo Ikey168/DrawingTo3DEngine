@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/harfbuzz-x64-linux-10.0.1-519773ad-c440-42bf-bc7d-a7b524e5a7f9",
+  "name": "harfbuzz:x64-linux@10.0.1 37a0cdd455ee64d36c7411f6b4171e8c0b562904b771cd5e56e64028cc5a52b6",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2024-10-05T23:01:10Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "harfbuzz",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "10.0.1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab",
+      "homepage": "https://github.com/harfbuzz/harfbuzz",
+      "licenseConcluded": "MIT-Modern-Variant",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "HarfBuzz OpenType text shaping engine",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "harfbuzz:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "37a0cdd455ee64d36c7411f6b4171e8c0b562904b771cd5e56e64028cc5a52b6",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT-Modern-Variant",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "harfbuzz/harfbuzz",
+      "downloadLocation": "git+https://github.com/harfbuzz/harfbuzz@10.0.1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ca1b7af7b4d05c9321a64b6083d618ca8a758547a8fc43eae5c2769110dcc784f9bb769d2ddb9479ebe62bb3f91ee9d5320fb4eaad3244b783f4fe31e6de33a0"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab/usage",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "515dd04580f98fcd28bcccc2f80825332a014e6ef967119c2f32f43ee2808358"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2f57d9bd615c6f0325d391778f80c71504cf12dcce4679f94e745988e59a90f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab/harfbuzzConfig.cmake.in",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2d316d965af13db5455dacdbc2cce641ef9bcf0fc1c9c0c2ed107890558af188"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab/fix-win32-build.patch",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04983e271a7f8899fc6d6e6d713ab84a535b6efc525d7506e788b08d541cff41"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//home/claude/.cache/vcpkg/registries/git-trees/816a8378a801aa2b0d2cdf2e601b9ee3cfe31dab/portfile.cmake",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b7cf06dac4002a7b9c43d742debae56e8fe7253ebf0ae83da49c8a82012bdb22"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

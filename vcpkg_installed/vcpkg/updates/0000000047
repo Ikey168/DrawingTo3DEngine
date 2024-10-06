@@ -1,0 +1,9 @@
+Package: glib
+Version: 2.78.4
+Port-Version: 4
+Depends: dirent, gettext, gettext-libintl, libffi, libiconv, pcre2, vcpkg-tool-meson, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 05a3a1997ed672d40de235d325643a0deb16b9d539dc3ceda1481c01e757614f
+Description: Portable, general-purpose utility library.
+Status: install ok installed

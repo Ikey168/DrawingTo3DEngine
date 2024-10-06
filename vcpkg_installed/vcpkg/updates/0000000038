@@ -1,0 +1,9 @@
+Package: gettext-libintl
+Version: 0.22.5
+Port-Version: 2
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 89c2c8ad0b1e37fc391647ab7f006843aeb3d2ddb6c260a26322a28e06df9153
+Description: The libintl C library from GNU gettext-runtime.
+Status: install ok half-installed

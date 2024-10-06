@@ -1,0 +1,6 @@
+Package: opencv2
+Feature: default-features
+Architecture: x64-linux
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok half-installed

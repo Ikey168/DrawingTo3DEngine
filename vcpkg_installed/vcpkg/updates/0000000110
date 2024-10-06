@@ -1,0 +1,10 @@
+Package: gdk-pixbuf
+Version: 2.42.12
+Port-Version: 1
+Depends: gettext, gettext-libintl, glib, vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: ec686ad4ebff48036f212da662c56c3113302a976c6fcc591e7bdab78778728f
+Description: Image loading library.
+Default-Features: jpeg, png, tiff
+Status: install ok installed

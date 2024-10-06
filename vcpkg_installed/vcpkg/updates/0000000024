@@ -1,0 +1,7 @@
+Package: libsass
+Version: 3.6.6
+Architecture: x64-linux
+Multi-Arch: same
+Abi: be7b44a845d65fe2134c9e92c093d09d87e9e6ccf85884a1206d281683ad363c
+Description: LibSass - Sass compiler written in C++
+Status: install ok half-installed

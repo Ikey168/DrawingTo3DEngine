@@ -1,0 +1,8 @@
+Package: fribidi
+Version: 1.0.16
+Depends: vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 13c301c16f736ce29990780d95109fdbb5672c29cbf892400fefe7d926108588
+Description: GNU FriBidi is an implementation of the Unicode Bidirectional Algorithm (bidi)
+Status: install ok installed

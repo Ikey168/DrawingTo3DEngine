@@ -1,0 +1,3 @@
+/home/claude/Desktop/career/Projects/DrawingTo3DEngine/build/CMakeFiles/OpTests.dir
+/home/claude/Desktop/career/Projects/DrawingTo3DEngine/build/CMakeFiles/edit_cache.dir
+/home/claude/Desktop/career/Projects/DrawingTo3DEngine/build/CMakeFiles/rebuild_cache.dir

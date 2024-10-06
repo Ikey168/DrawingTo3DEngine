@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/../include
+libdir=${prefix}/lib
+
+Name: cairo
+Description: Multi-platform 2D graphics library
+Version: 1.18.0
+
+Libs: "-L${libdir}" -lcairo -lm -ldl
+Requires: zlib, libpng, fontconfig >=  2.2.95, freetype2 >=  9.7.3, x11, xext, xrender >=  0.6, pixman-1 >=  0.36.0
+Cflags: "-I${includedir}/cairo"

@@ -1,0 +1,9 @@
+Package: harfbuzz
+Version: 10.0.1
+Depends: vcpkg-tool-meson
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 37a0cdd455ee64d36c7411f6b4171e8c0b562904b771cd5e56e64028cc5a52b6
+Description: HarfBuzz OpenType text shaping engine
+Default-Features: freetype
+Status: install ok half-installed
